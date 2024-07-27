@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divyansh Bajpai</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="anim.css">
 </head>
+
 <body>
-    <div class="nav">
+    <div class="nav fadeIn">
         <div class="navbox">
             <button class="nav-item nactive " data-url="index.html">Home</button>
             <button class="nav-item active navTabFade" data-url="about.html">About</button>
@@ -16,11 +19,110 @@
             <button class="nav-item nactive" data-url="contacts.html">Contacts</button>
         </div>
     </div>
-    <div class="container">
-        <section class="sec1">
-            
-        </section>
+    <div class="container fadeIn">
+        <div class="leftPane">
+            <div class="list">
+                <div class="listEle"><a href="#aboutMe">About Me</a></div>
+                <div class="listEle"><a href="#A&A">Award and Achievements</a></div>
+                <div class="listEle"><a href="#education">Education</a></div>
+                <div class="listEle"><a href="#techStack">Technical Stack</a></div>
+                <div class="listEle"><a href="#elsewhere">Elsewhere</a></div>
+            </div>
+        </div>
+        <div class="rightPane">
+            <img src="assets/posterPic.jpg" alt="Poster Pic" class="postPic fadeIn">
+            <div id="aboutMe" class="fadeIn">
+                <h1>About Me</h1>
+                <div class="content">
+                    Hey! I'm Divyansh, a final-year BCA student passionate about UI/UX design and digital innovation.<br><br>I
+                    craft award-winning UIs and am skilled in <b>Web Development, Android Development, C++, and Java.</b>
+                    Currently, I'm working on a project to revolutionize 3D computing. I balance my love for tech with a
+                    minimalist lifestyle, aiming to create simple yet impactful digital experiences.<br><br>Turning Fiction into -> Reality
+                </div>
+            </div>
+            <div id="A&A" class="fadeIn">
+                <h1>Awards & Achievements</h1>
+                <div class="content">
+                    <div class="awards">
+                        <div class="h-stretch">
+                            <img src="assets/1.jpg" alt="certificate">
+                        </div>
+                        <div class="v-stretch">
+                            <img src="assets/2.jpg" alt="certificate">
+                        </div>
+                        <div>
+                            <img src="assets/10.jpg" alt="certificate">
+                        </div>
+                        <div class="big-stretch">
+                            <img src="assets/4.jpg" alt="certificate">
+                        </div>
+                        <div class="h-stretch">
+                            <img src="assets/5.jpg" alt="certificate">
+                        </div>
+                        <div class="v-stretch">
+                            <img src="assets/6.jpg" alt="certificate">
+                        </div>
+                        <div>
+                            <img src="assets/7.jpg" alt="certificate">
+                        </div>
+                        <div class="h-stretch">
+                            <img src="assets/8.jpg" alt="certificate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="education" class="fadeIn">
+                <h1>Education</h1>
+                <div class="content">
+                    <h4>High School</h4>
+                    <span>Subhash Public Sr. Sec. School (2019-20)</span><br>
+                    <span>72%</span>
+                    <h4>Intermediate</h4>
+                    <span>Dayanand Dinanath Education Centre (2021-22)</span><br>
+                    <span>71%</span>
+                    <h4>Bachelor's of Computer Application</h4>
+                    <span>PSIT College of Higher Education (2022-25)</span><br>
+                    <span>8.1 CGPA</span>
+                </div>
+            </div>
+            <div id="techStack" class="fadeIn">
+                <h1>Technical Stack</h1>
+                <div class="content">
+                    <div class="caps">C</div>
+                    <div class="caps">C++</div>
+                    <div class="caps">Java</div>
+                    <div class="caps">XML</div>
+                    <div class="caps">HTML</div>
+                    <div class="caps">CSS</div>
+                </div>
+            </div>
+            <div id="elsewhere" class="fadeIn">
+                <h1>Elsewhere</h1>
+                <div class="content">
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/divyanshbajpai27/" target="_blank">
+                            <img src="assets/linkedin.png" alt="linkedin icon" class="icon slideRight">
+                        </a>
+                        <a href="https://www.instagram.com/_divyansh.bajpai/" target="_blank">
+                            <img src="assets/instagram.png" alt="instagram icon" class="icon slideRight">
+                        </a>
+                        <a href="https://github.com/divyanshbajpai27/" target="_blank">
+                            <img src="assets/github.png" alt="github icon" class="icon slideRight">
+                        </a>
+                        <a href="https://dribbble.com/divyanshbajpai27/" target="_blank">
+                            <img src="assets/dribbble.png" alt="dribbble icon" class="icon slideRight">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="card">
+        "Turning Fiction into -> Reality"
+    </div>
+    <div class="end"></div>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -11,14 +11,18 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    align-items: center;
     margin: 0;
 }
 
 .nav {
     width: fit-content;
     margin: 20px auto;
+    position: fixed;
     background-color: rgba(248, 248, 248, 0.4);
+    backdrop-filter: blur(10px);
     border-radius: 3em;
+    z-index: 1000;
 }
 
 .navbox {
