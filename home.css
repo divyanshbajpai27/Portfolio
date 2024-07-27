@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sec1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom; */
+}
+
+.dbText{
+    position: relative;
+    bottom: 6em;
+    width: 60em;
+}
+
+.Divyansh{
+    position: absolute;
+    height: 85vh;
+    bottom: 0;
+}
+
+.fadepng{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.Im{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    position: absolute;
+    color: white;
+    font-size: 6rem;
+    bottom: 1.6em;
+}
+
+/* styles.css */
+.typing-container {
+    position: absolute;
+    font-family: monospace;
+    bottom: 0.8em;
+    font-size: 5rem;
+}
+
+.typing-container .typed-cursor {
+    color: white; /* Change cursor color to white */
+}
+
+#name{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: white;
+}
+
+.Innovaters{
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    padding: 0.7em 0.9em;
+    border-radius: 0.6em;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.btnDesign{
+    font-size: 1.5rem;
+    background: none;
+    border: 1px solid white;
+    border-color: #00000000;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.btnDesign:hover{
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+.CV{
+    position: absolute;
+    bottom: 5em;
+    right: 2em;
+    padding: 0.7em 0.9em;
+    border-radius: 0.6em;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+}
+
+.icon{
+    margin: 0.2em;
+    padding: 0.2em;
+    width: 2.5em;
+}
+
+#cube1{
+    position: absolute;
+    width: 6em;
+    left: 23em;
+    top: 30em;
+    rotate: 45deg;
+    transition: all 0.3s ease-out;
+}
+
+#cube2{
+    position: absolute;
+    width: 6em;
+    right: 25em;
+    top: 10em;
+    rotate: -45deg;
+    transition: all 0.3s ease-out;
+}
+
+#cube1:hover{
+    rotate: 20deg;
+    transition: all 0.3s ease-out;
+}
+
+#cube2:hover{
+    rotate: -20deg;
+    transition: all 0.3s ease-out;
+}
