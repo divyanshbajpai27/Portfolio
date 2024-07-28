@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 100px;
+    scroll-snap-align: start;
+}
+
+section img{
+    border-radius: 40px;
+    width: 40vw;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.projectContent{
+    width: 30vw;
+}
+
+.description{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.srcCode{
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 25px;
+    border-radius: 80px;
+    margin: 20px 0px;
+}
+
+.Detail{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 25px;
+    border-radius: 80px;
+    border: 2px solid white;
+    margin: 20px 10px;
+}
