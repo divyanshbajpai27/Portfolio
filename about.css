@@ -143,6 +143,10 @@ html{
     color: rgb(0, 162, 255);
 }
 
+.social a{
+    text-decoration: none;
+}
+
 .social img{
     width: 30px;
     margin: 0 10px;

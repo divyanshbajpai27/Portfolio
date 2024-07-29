@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html{
+    overflow: hidden;
+}
+
 .sec1 {
     flex: 1;
     display: flex;
@@ -114,8 +118,8 @@
 #cube1{
     position: absolute;
     width: 6em;
-    left: 23em;
-    top: 30em;
+    left: 10vw;
+    bottom: 10em;
     rotate: 45deg;
     transition: all 0.3s ease-out;
 }
@@ -123,7 +127,7 @@
 #cube2{
     position: absolute;
     width: 6em;
-    right: 25em;
+    right: 10vw;
     top: 10em;
     rotate: -45deg;
     transition: all 0.3s ease-out;
@@ -137,4 +141,41 @@
 #cube2:hover{
     rotate: -20deg;
     transition: all 0.3s ease-out;
+}
+
+.stripBoxL{
+    position: absolute;
+    width: fit-content;
+    background-color: white;
+    rotate: 4deg;
+    border: 2px solid black;
+    display: flex;
+    bottom: 20em;
+}
+
+.stripBoxR{
+    position: absolute;
+    width: fit-content;
+    background-color: white;
+    rotate: -4deg;
+    border: 2px solid black;
+    display: flex;
+    bottom: 20em;
+}
+
+.stripContent{
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 5px;
+    width: max-content;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
