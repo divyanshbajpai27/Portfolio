@@ -5,7 +5,7 @@ buttons.forEach(button => {
         buttons.forEach(btn => {
             btn.classList.remove('active');
             btn.classList.add('nactive');
-        })
+        });
         button.classList.add('active');
         button.classList.remove('nactive');
 
@@ -13,7 +13,6 @@ buttons.forEach(button => {
         window.location.href = targetUrl;
     });
 });
-
 
 document.getElementById('CVbtn').addEventListener('click', function() {
     CV();
