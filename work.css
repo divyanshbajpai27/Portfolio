@@ -25,7 +25,7 @@ section{
 
 section img{
     border-radius: 40px;
-    width: 40vw;
+    height: 25vw;
 }
 
 .title{
@@ -70,7 +70,7 @@ h2{
 }
 
 .srcCode img{
-    width: 20px;
+    height: 20px;
     margin-right: 5px;
     border-radius: 0;
 }
